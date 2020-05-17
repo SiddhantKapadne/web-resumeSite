@@ -1,0 +1,725 @@
+/* .info-card{
+    margin: 160px auto auto auto;
+    width: 65%;
+    height: 240px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Round-img{
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin: -100px auto auto 15px;
+    width: 200px;
+    height: 200px;
+    background-color: #FFFFFF;
+}
+
+.postHead{
+    margin: -150px auto auto 225px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 150;
+    font-size: 1.923vw;
+    color: #000000;
+}
+
+.nameHead{
+    margin: 15px auto auto 225px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.692vw;
+    color: #000000;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+}
+
+.my-info{
+    margin: 10px auto -60px 225px;
+    width: 70%;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.385vw;
+    text-align: justify;
+    color: #000000;
+    word-wrap: break-word;
+}
+
+.btn-cv{        
+    margin: auto auto auto 42px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    height: 40px;
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.btn-cv:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+} */
+
+    .info-card {
+        margin: 45px auto auto auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(0, 0);
+        width: 55%;
+        transition: 0.3s;
+      }
+      .Round-img {
+        grid-column: 2;
+        grid-row: 1;
+        border: 4px solid #000;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        /* width: 11vw;
+        height: 11vw; */
+        margin: auto;
+        background-color: #FFFFFF;
+        transition: 0.3s;
+        user-select: none;
+      }
+      .postHead { 
+        grid-column: 3;
+        grid-row: 1;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 150;
+        /* font-size: 20px; */
+        font-size: 1.6vw;
+        color: #000000;
+        transition: 0.3s;
+      }
+      .nameHead {
+        grid-column: 1 / 4;
+        grid-row: 2 ;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        /* font-size: 30px; */
+        font-size: 2.4vw;
+        text-align: center;
+        color: #000000;
+        margin-top: 160px;
+        text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+        transition: 0.3s;
+      }
+      .my-info {
+        grid-column: 1 / 4;
+        grid-row: 3;
+        padding: 20px 20px 20px 20px;
+        line-height: 1.5;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        /* font-size: 16px; */
+        font-size: 1.1vw;
+        text-align: justify;
+        color: #000000;
+        margin-top: 180px;
+        word-wrap: break-word;
+        transition: 0.3s;
+      }
+      .btn-cv {
+        grid-column: 2;
+        grid-row: 4;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        height: 40px;
+        width: 80%; 
+        background-color: #000000;
+        color: #FFFFFF;
+        border: 3px solid #000000;
+        box-sizing: border-box;
+        border-radius: 50px;
+        margin: 305px auto auto auto;
+        /* font-size: 16px; */
+        font-size: 1.4vw;
+        transition: 0.3s;
+      }
+
+    .bg-design{
+        width: 60%;
+        height: 250px;
+        margin: 160px auto -410px auto;
+        background-color: #FFFFFF;
+        border-radius: 50px;
+        box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.3s;
+    }
+
+@media screen and (max-width:991px){
+    .info-card {
+        margin: 45px auto auto auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(0, 0);
+        width: 55%;
+        transition: 0.3s;
+      }
+      .Round-img {
+        grid-column: 2;
+        grid-row: 1;
+        border: 4px solid #000;
+        border-radius: 50%;
+        width: 170px;
+        height: 170px;
+        /* width: 12.500vw;
+        height: 12.500vw; */
+        margin: auto;
+        background-color: #FFFFFF;
+        transition: 0.3s;
+      }
+      .postHead { 
+        grid-column: 3;
+        grid-row: 1;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 150;
+        /* font-size: 20px; */
+        font-size: 1.6vw;
+        color: #000000;
+        transition: 0.3s;
+      }
+      .nameHead {
+        grid-column: 1 / 4;
+        grid-row: 2 ;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        /* font-size: 2.4vw; */
+        text-align: center;
+        color: #000000;
+        margin-top: 185px;
+        text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+        transition: 0.3s;
+      }
+      .my-info {
+        grid-column: 1 / 4;
+        grid-row: 3;
+        padding: 20px 20px 20px 20px;
+        line-height: 1.5;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        /* font-size: 1.1vw; */
+        text-align: justify;
+        color: #000000;
+        margin-top: 200px;
+        word-wrap: break-word;
+        transition: 0.3s;
+      }
+      .btn-cv {
+        grid-column: 2;
+        grid-row: 4;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        height: 40px;
+        width: 80%; 
+        background-color: #000000;
+        color: #FFFFFF;
+        border: 3px solid #000000;
+        box-sizing: border-box;
+        border-radius: 50px;
+        margin: 340px auto auto auto;
+        /* font-size: 16px; */
+        font-size: 1.4vw;
+        transition: 0.3s;
+      }
+
+    .bg-design{
+        width: 60%;
+        height: 250px;
+        margin: 170px auto -435px auto;
+        background-color: #FFFFFF;
+        border-radius: 50px;
+        box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.3s;
+    }
+}
+
+@media screen and (max-width:834px){
+    .info-card {
+        margin: 45px auto auto auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(0, 0);
+        width: 55%;
+        transition: 0.3s;
+      }
+      .Round-img {
+        grid-column: 2;
+        grid-row: 1;
+        border: 4px solid #000;
+        border-radius: 50%;
+        width: 170px;
+        height: 170px;
+        /* width: 12.500vw;
+        height: 12.500vw; */
+        margin: auto;
+        background-color: #FFFFFF;
+        transition: 0.3s;
+      }
+      .postHead { 
+        grid-column: 3;
+        grid-row: 1;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 150;
+        /* font-size: 20px; */
+        font-size: 1.4vw;
+        color: #000000;
+        transition: 0.3s;
+      }
+      .nameHead {
+        grid-column: 1 / 4;
+        grid-row: 2 ;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        /* font-size: 2.4vw; */
+        text-align: center;
+        color: #000000;
+        margin-top: 185px;
+        text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+        transition: 0.3s;
+      }
+      .my-info {
+        grid-column: 1 / 4;
+        grid-row: 3;
+        padding: 20px 20px 20px 20px;
+        line-height: 1.5;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        /* font-size: 1.1vw; */
+        text-align: justify;
+        color: #000000;
+        margin-top: 200px;
+        word-wrap: break-word;
+        transition: 0.3s;
+      }
+      .btn-cv {
+        grid-column: 2;
+        grid-row: 4;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        height: 40px;
+        width: 80%; 
+        background-color: #000000;
+        color: #FFFFFF;
+        border: 3px solid #000000;
+        box-sizing: border-box;
+        border-radius: 50px;
+        margin: 335px auto auto auto;
+        font-size: 12px;
+        /* font-size: 1.4vw; */
+        transition: 0.3s;
+      }
+
+    .bg-design{
+        width: 70%;
+        height: 250px;
+        margin: 170px auto -435px auto;
+        background-color: #FFFFFF;
+        border-radius: 50px;
+        box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.3s;
+    }
+}
+
+@media screen and (max-width:479px){
+     .info-card {
+        margin: 45px auto auto auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(0, 0);
+        width: 65%;
+        transition: 0.3s;
+      }
+      .Round-img {
+        grid-column: 2;
+        grid-row: 2;
+        border: 4px solid #000;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        /* width: 12.500vw;
+        height: 12.500vw; */
+        margin: auto;
+        margin-top: 55px;
+        background-color: #FFFFFF;
+        transition: 0.3s;
+      }
+      .postHead { 
+        grid-column: 2;
+        grid-row: 1;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 150;
+        font-size: 20px;
+        /* font-size: 1.4vw; */
+        color: #000000;
+        transition: 0.3s;
+      }
+      .nameHead {
+        grid-column: 1 / 4;
+        grid-row: 3 ;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        /* font-size: 2.4vw; */
+        text-align: center;
+        color: #000000;
+        margin-top: 185px;
+        text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+        transition: 0.3s;
+      }
+      .my-info {
+        grid-column: 1 / 4;
+        grid-row: 3;
+        padding: 20px 20px 20px 20px;
+        line-height: 1.5;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        /* font-size: 1.1vw; */
+        text-align: justify;
+        color: #000000;
+        margin-top: 200px;
+        word-wrap: break-word;
+        transition: 0.3s;
+      }
+      .btn-cv {
+        grid-column: 2 ;
+        grid-row: 5;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        height: 30px;
+        width: 80%; 
+        background-color: #000000;
+        color: #FFFFFF;
+        border: 3px solid #000000;
+        box-sizing: border-box;
+        border-radius: 50px;
+        margin: 470px auto auto auto;
+        font-size: 10px;
+        /* font-size: 1.4vw; */
+        transition: 0.3s;
+      }
+
+    .bg-design{
+        width: 70%;
+        height: 360px;
+        margin: 170px auto -560px auto;
+        background-color: #FFFFFF;
+        border-radius: 50px;
+        box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.3s;
+    }
+}
+
+@media (max-width: 400px){
+    .info-card {
+        margin: 45px auto auto auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(0, 0);
+        width: 70%;
+        transition: 0.3s;
+      }
+      .Round-img {
+        grid-column: 2;
+        grid-row: 2;
+        border: 4px solid #000;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        /* width: 12.500vw;
+        height: 12.500vw; */
+        margin: auto;
+        margin-top: 55px;
+        background-color: #FFFFFF;
+        transition: 0.3s;
+      }
+      .postHead { 
+        grid-column: 2;
+        grid-row: 1;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 150;
+        font-size: 10px;
+        /* font-size: 1.4vw; */
+        color: #000000;
+        transition: 0.3s;
+        margin: 30px auto;
+      }
+      .nameHead {
+        grid-column: 1 / 4;
+        grid-row: 3 ;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        /* font-size: 2.4vw; */
+        text-align: center;
+        color: #000000;
+        margin-top: 195px;
+        text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+        transition: 0.3s;
+      }
+      .my-info {
+        grid-column: 1 / 4;
+        grid-row: 3;
+        padding: 20px 20px 20px 20px;
+        line-height: 1.5;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        /* font-size: 1.1vw; */
+        text-align: justify;
+        color: #000000;
+        margin-top: 200px;
+        word-wrap: break-word;
+        transition: 0.3s;
+      }
+      .btn-cv {
+        grid-column: 2 ;
+        grid-row: 5;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        height: 25px;
+        width: 80%; 
+        background-color: #000000;
+        color: #FFFFFF;
+        border: 3px solid #000000;
+        box-sizing: border-box;
+        border-radius: 50px;
+        margin: 460px auto auto auto;
+        font-size: 10px;
+        /* font-size: 1.4vw; */
+        transition: 0.3s;
+      }
+
+    .bg-design{
+        width: 70%;
+        height: 350px;
+        margin: 170px auto -540px auto;
+        background-color: #FFFFFF;
+        border-radius: 50px;
+        box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.3s;
+    }
+}
+
+@media (max-width: 350px){
+    .info-card {
+        margin: 45px auto auto auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(0, 0);
+        width: 65%;
+        transition: 0.3s;
+      }
+      .Round-img {
+        grid-column: 2;
+        grid-row: 2;
+        border: 4px solid #000;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        /* width: 12.500vw;
+        height: 12.500vw; */
+        margin: auto;
+        margin-top: 55px;
+        background-color: #FFFFFF;
+        transition: 0.3s;
+      }
+      .postHead { 
+        grid-column: 2;
+        grid-row: 1;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 150;
+        font-size: 10px;
+        /* font-size: 1.4vw; */
+        color: #000000;
+        transition: 0.3s;
+        margin: 30px auto;
+      }
+      .nameHead {
+        grid-column: 1 / 4;
+        grid-row: 3 ;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        /* font-size: 2.4vw; */
+        text-align: center;
+        color: #000000;
+        margin-top: 195px;
+        text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+        transition: 0.3s;
+      }
+      .my-info {
+        grid-column: 1 / 4;
+        grid-row: 3;
+        padding: 20px 20px 20px 20px;
+        line-height: 1.5;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        /* font-size: 1.1vw; */
+        text-align: justify;
+        color: #000000;
+        margin-top: 200px;
+        word-wrap: break-word;
+        transition: 0.3s;
+      }
+      .btn-cv {
+        grid-column: 2 ;
+        grid-row: 5;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        height: 30px;
+        width: 80%; 
+        background-color: #000000;
+        color: #FFFFFF;
+        border: 3px solid #000000;
+        box-sizing: border-box;
+        border-radius: 50px;
+        margin: 375px auto auto auto;
+        font-size: 8px;
+        /* font-size: 1.4vw; */
+        transition: 0.3s;
+      }
+
+    .bg-design{
+        width: 70%;
+        height: 270px;
+        margin: 150px auto -460px auto;
+        background-color: #FFFFFF;
+        border-radius: 50px;
+        box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.3s;
+    }
+}
+
+@media screen and (max-width:300px){
+    .info-card {
+        margin: 45px auto auto auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(0, 0);
+        width: 65%;
+        transition: 0.3s;
+      }
+      .Round-img {
+        grid-column: 2;
+        grid-row: 2;
+        border: 4px solid #000;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        /* width: 12.500vw;
+        height: 12.500vw; */
+        margin: auto;
+        margin-top: 55px;
+        background-color: #FFFFFF;
+        transition: 0.3s;
+      }
+      .postHead { 
+        grid-column: 2;
+        grid-row: 1;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 150;
+        font-size: 10px;
+        /* font-size: 1.4vw; */
+        color: #000000;
+        transition: 0.3s;
+        margin: 30px auto;
+      }
+      .nameHead {
+        grid-column: 1 / 4;
+        grid-row: 3 ;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        /* font-size: 2.4vw; */
+        text-align: center;
+        color: #000000;
+        margin-top: 195px;
+        text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+        transition: 0.3s;
+      }
+      .my-info {
+        grid-column: 1 / 4;
+        grid-row: 3;
+        padding: 20px 20px 20px 20px;
+        line-height: 1.5;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 8px;
+        /* font-size: 1.1vw; */
+        text-align: justify;
+        color: #000000;
+        margin-top: 200px;
+        word-wrap: break-word;
+        transition: 0.3s;
+      }
+      .btn-cv {
+        grid-column: 2 ;
+        grid-row: 5;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        height: 30px;
+        width: 80%; 
+        background-color: #000000;
+        color: #FFFFFF;
+        border: 3px solid #000000;
+        box-sizing: border-box;
+        border-radius: 50px;
+        margin: 375px auto auto auto;
+        font-size: 8px;
+        /* font-size: 1.4vw; */
+        transition: 0.3s;
+      }
+
+    .bg-design{
+        width: 70%;
+        height: 270px;
+        margin: 150px auto -460px auto;
+        background-color: #FFFFFF;
+        border-radius: 50px;
+        box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.3s;
+    }
+}

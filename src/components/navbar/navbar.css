@@ -1,0 +1,224 @@
+@import url("../../index.css");
+.Navbar{
+    width: 80%;
+    height: 50px;
+    padding: 10px 35px 10px 35px;
+    margin: 20px auto auto auto;
+    background: #FFFFFF;
+    box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 90px;
+    transition: ease all 0.3s;
+  }
+  .logo{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    letter-spacing: -6px;
+    background-color: #FFFFFF;
+    user-select: none;
+    transition: ease all 0.3s;
+  }
+  .NavItems{
+    float: right;
+    margin: 12px 80px auto auto;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 150;
+    font-size: 20px;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    transition: ease all 0.3s;
+  }
+
+  /* Responsive section */
+
+  @media screen and (max-width: 978px) {
+     /* medium tablet styles */
+     .Navbar{
+      width: 80%;
+      height: 35px;
+      padding: 10px 35px 10px 35px;
+      margin: 20px auto auto auto;
+      background: #FFFFFF;
+      box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.12);
+      border-radius: 90px;
+    }
+    .logo{
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      color: #000000;
+      border: none;
+      cursor: pointer;
+      letter-spacing: -6px;
+      background-color: #FFFFFF;
+      user-select: none;
+    }
+    .NavItems{
+      float: right;
+      margin: 10px 35px auto auto;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 150;
+      font-size: 14px;
+      color: #000000;
+      border: none;
+      cursor: pointer;
+      background-color: #FFFFFF;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    /* medium tablet styles */
+      .Navbar{
+        width: 80%;
+        height: 35px;
+        padding: 10px 35px 10px 35px;
+        margin: 20px auto auto auto;
+        background: #FFFFFF;
+        box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.12);
+        border-radius: 90px;
+      }
+      .logo{
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        color: #000000;
+        border: none;
+        cursor: pointer;
+        letter-spacing: -6px;
+        background-color: #FFFFFF;
+        user-select: none;
+      }
+      .NavItems{
+        float: right;
+        margin: 10px 35px auto auto;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 150;
+        font-size: 14px;
+        color: #000000;
+        border: none;
+        cursor: pointer;
+        background-color: #FFFFFF;
+      }
+    }
+
+  @media screen and (max-width: 609px) {
+      /* medium mini tablet styles */
+        .Navbar{
+          width: 80%;
+          height: 30px;
+          padding: 10px 20px 10px 20px;
+          margin: 20px auto auto auto;
+          background: #FFFFFF;
+          box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.12);
+          border-radius: 90px;
+        }
+        .logo{
+          font-family: 'Rubik', sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 25px;
+          color: #000000;
+          border: none;
+          cursor: pointer;
+          letter-spacing: -6px;
+          background-color: #FFFFFF;
+          user-select: none;
+        }
+        .NavItems{
+          float: right;
+          margin: 10px 20px auto auto;
+          font-family: 'Roboto', sans-serif;
+          font-style: normal;
+          font-weight: 150;
+          font-size: 12px;
+          color: #000000;
+          border: none;
+          cursor: pointer;
+          background-color: #FFFFFF;
+        }
+      }
+
+  @media screen and (max-width: 500px) {
+      /* start of phone styles */
+      .Navbar{
+        width: 80%;
+        height: 25px;
+        padding: 10px 10px 10px 10px;
+        margin: 20px auto auto auto;
+        background: #FFFFFF;
+        box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.12);
+        border-radius: 90px;
+      }
+      .logo{
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: #000000;
+        border: none;
+        cursor: pointer;
+        letter-spacing: -6px;
+        background-color: #FFFFFF;
+        user-select: none;
+      }
+      .NavItems{
+        float: right;
+        margin: 5px 2px auto auto;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 150;
+        font-size: 10px;
+        color: #000000;
+        border: none;
+        cursor: pointer;
+        background-color: #FFFFFF;
+      }
+    }
+
+  @media screen and (max-width: 300px) {
+      /* start of phone styles */
+      .Navbar{
+        width: 80%;
+        height: 25px;
+        padding: 10px 10px 10px 10px;
+        margin: 20px auto auto auto;
+        background: #FFFFFF;
+        box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.12);
+        border-radius: 90px;
+      }
+      .logo{
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        color: #000000;
+        border: none;
+        cursor: pointer;
+        letter-spacing: -5px;
+        background-color: #FFFFFF;
+        user-select: none;
+      }
+      .NavItems{
+        float: right;
+        margin: 7px 2px auto auto;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 150;
+        font-size: 8px;
+        color: #000000;
+        border: none;
+        cursor: pointer;
+        background-color: #FFFFFF;
+      }
+    }

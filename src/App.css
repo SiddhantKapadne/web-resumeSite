@@ -1,0 +1,257 @@
+.App{
+  align-items: center;
+  margin: auto;
+}
+.welcome-card{
+  margin: 100px auto auto auto;
+  height: auto;
+  width: 715px;
+  transition: ease all 0.3s;
+}
+.great{
+  color: #000000;
+  margin-bottom: -75px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  transition: ease all 0.3s;
+}
+.intro{
+  animation: highlight 2.5s infinite alternate;
+  font-family: 'Roboto', sans-serif;
+  color: #F1F3F6;
+  margin-bottom: -10px;
+  text-align: justify;
+  font-size: 100px;
+  font-style: bold;
+  user-select: none;
+  transition: ease all 0.3s;
+}
+@keyframes highlight{
+  from{
+    text-shadow: 0px;
+  }
+  to{
+     text-shadow:  3px 3px 5px #cdcfd1, 
+               -3px -3px 5px #ffffff;
+  }
+}
+.details{
+  color: #000000;
+  text-align: right;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  transition: ease all 0.3s;
+}
+
+/* Responsive section */
+@media screen and (max-width: 767px){
+
+  .welcome-card{
+    margin: 100px auto auto auto;
+    height: auto;
+    width: 600px;
+  }
+  .great{
+    color: #000000;
+    margin-bottom: -65px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .intro{
+    animation: highlight 2.5s infinite alternate;
+    font-family: 'Roboto', sans-serif;
+    color: #F1F3F6;
+    margin-bottom: -10px;
+    text-align: justify;
+    font-size: 80px;
+    font-style: bold;
+    user-select: none;
+  }
+  @keyframes highlight{
+    from{
+      text-shadow: 0px;
+    }
+    to{
+      text-shadow:  3px 3px 5px #cdcfd1, 
+                -3px -3px 5px #ffffff;
+    }
+  }
+  .details{
+    color: #000000;
+    text-align: right;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 609px){
+
+  .welcome-card{
+    margin: 100px auto auto auto;
+    height: auto;
+    width: 500px;
+  }
+  .great{
+    color: #000000;
+    margin-bottom: -45px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+  }
+  .intro{
+    animation: highlight 2.5s infinite alternate;
+    font-family: 'Roboto', sans-serif;
+    color: #F1F3F6;
+    margin-bottom: -10px;
+    text-align: justify;
+    font-size: 70px;
+    font-style: bold;
+    user-select: none;
+  }
+  @keyframes highlight{
+    from{
+      text-shadow: 0px;
+    }
+    to{
+      text-shadow:  2px 2px 4px #cdcfd1, 
+                -2px -2px 4px #ffffff;
+    }
+  }
+  .details{
+    color: #000000;
+    text-align: right;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 500px){
+
+  .welcome-card{
+    margin: 150px auto auto auto;
+    height: auto;
+    width: 400px;
+  }
+  .great{
+    color: #000000;
+    margin-bottom: -45px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .intro{
+    animation: highlight 2.5s infinite alternate;
+    font-family: 'Roboto', sans-serif;
+    color: #F1F3F6;
+    margin-bottom: -10px;
+    text-align: justify;
+    font-size: 55px;
+    font-style: bold;
+    user-select: none;
+  }
+  @keyframes highlight{
+    from{
+      text-shadow: 0px;
+    }
+    to{
+      text-shadow:  2px 2px 4px #cdcfd1, 
+                -2px -2px 4px #ffffff;
+    }
+  }
+  .details{
+    color: #000000;
+    text-align: right;
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width:470px) {
+
+  .welcome-card{
+    margin: 100px auto auto auto;
+    height: auto;
+    width: 250px;
+  }
+  .great{
+    color: #000000;
+    margin-bottom: -45px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .intro{
+    animation: highlight 2.5s infinite alternate;
+    font-family: 'Roboto', sans-serif;
+    color: #F1F3F6;
+    margin-bottom: -10px;
+    text-align: justify;
+    font-size: 55px;
+    font-style: bold;
+    user-select: none;
+  }
+  @keyframes highlight{
+    from{
+      text-shadow: 0px;
+    }
+    to{
+      text-shadow:  2px 2px 4px #cdcfd1, 
+                -2px -2px 4px #ffffff;
+    }
+  }
+  .details{
+    color: #000000;
+    text-align: right;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width:360px) {
+
+  .welcome-card{
+    margin: 100px auto auto auto;
+    height: auto;
+    width: 250px;
+  }
+  .great{
+    color: #000000;
+    margin-bottom: -45px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .intro{
+    animation: highlight 2.5s infinite alternate;
+    font-family: 'Roboto', sans-serif;
+    color: #F1F3F6;
+    margin-bottom: -10px;
+    text-align: justify;
+    font-size: 50px;
+    font-style: bold;
+    user-select: none;
+  }
+  @keyframes highlight{
+    from{
+      text-shadow: 0px;
+    }
+    to{
+      text-shadow:  2px 2px 4px #cdcfd1, 
+                -2px -2px 4px #ffffff;
+    }
+  }
+  .details{
+    color: #000000;
+    text-align: right;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
